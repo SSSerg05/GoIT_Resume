@@ -4,9 +4,156 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <title>MyResume</title>
 </head>
 <body>
+    <!-- Main -->
+    <div class="container">
+        
+        <!-- User skills -->
+        <aside class="sidebar">
+
+            <!-- Photo -->
+            <div class="photo">
+                <img src="./img/photo.jpg" alt="MyPhoto">
+            </div>
+            
+            <!-- Contacts -->
+            <div class="contacts">
+                <h3 class="sidebar-text">Contacts</h3>
+                <p class="sidebar-text">C: <a href="tel:+1 111 111 11 11" class="phone">+1 111 111 11 11</a></p>
+                <p class="sidebar-text">E: <a href="mailto:chornyiav@gmail.com" class="email">chornyiav@gmail.com</a></p>
+            </div>
+
+            <!-- Tech skills -->
+            <div class="tech-skills">
+                <h3 class="sidebar-text">Tech Skills</h3>
+                <ul class="sidebar-list">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>GIT</li>
+                    <li>WebPack</li>
+                    <li>JavaScript</li>
+                    <li>React.js</li>
+                    <li>Node.js</li>
+                </ul>
+            </div>
+
+            <!-- Soft skills -->
+            <div class="soft-skills">
+                <h3 class="sidebar-text">Soft Skills</h3>
+                <ul class="sidebar-list">
+                    <li>Scrum</li>
+                    <li>Agile</li>
+                    <li>GTD</li>
+                    <li>Teamwork</li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- User content -->
+        <div class="user-content black">
+            
+            <!-- User About -->
+            <div class="user-about">
+                <h2>Front-End Developer</h2>
+                <h1>SSerg05</h1>
+                <p>This is a test work created on a free marathon conducted by
+                    <a href="https://goit.global/ua/" target="blank">GoIT company(Ukraine)</a>
+                    &nbsp;&nbsp;at 2022-11-15 ... 2022-11-21
+                </p>
+            </div>
+
+            <!-- User Projects -->
+            <div class="user-projects">
+                <h3>Projects</h3>
+                <ol class="projects-list">
+                    <li class="project-item">
+                        <span class="project-text">
+                            <a href="https://hellen.p.goit.global/">https://hellen.p.goit.global/</a>
+                            <span class="project-points">............................</span> 
+                            <span class="project-brecket"> [ </span>
+                            <span class="project-text">HTML5, CSS3</span>
+                            <span class="project-brecket"> ] </span>
+                        </span>
+                    </li>
+                    <li class="project-item">
+                        <span class="project-text">
+                            <a href="https://cryptohub.p.goit.global/">https://cryptohub.p.goit.global/</a>
+                            <span class="project-points">..................</span> 
+                            <span class="project-brecket"> [ </span>
+                            <span class="project-text">JavaScript</span>
+                            <span class="project-brecket"> ] </span>
+                        </span>
+                    </li>
+                    <li class="project-item">
+                        <span class="project-text">
+                            <a href="https://kidslike.p.goit.global/">https://kidslike.p.goit.global/</a>
+                            <span class="project-points">.........................</span> 
+                            <span class="project-brecket"> [ </span>
+                            <span class="project-text">React.js, Node.js</span>
+                            <span class="project-brecket"> ] </span>
+                        </span>
+                    </li>
+                </ol>
+                
+            </div>
+            
+            <!-- User Work-Experience -->
+            <div class="user-work">
+                <h3>Work Experience</h3>
+                
+                <!-- work-1 -->
+                <div class="work-block">
+                    <h4>Front-End Developer <span class="orange">Freelance</span></h4>
+                    <p class="time">September 2019 - up to now   <span class="black">|</span>   Country</p>
+                    <ul class="work-list">
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li>Risus commodo viverra maecenas.</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
+                    </ul>
+                </div>
+               
+                <!-- work-2 -->
+                <div class="work-block">
+                    <h4>Manager <span class="orange">Mono New</span></h4>
+                    <p class="time">March 2015 - October 2018   <span class="black">|</span>   Country</p>
+                    <ul class="work-list">
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua.</li>
+                        <li>Quis ipsum suspendisse ultrices gravida.</li>
+                        <li>Risus commodo viverra maecenas.</li>
+                    </ul>
+                </div>
+
+                <!-- work-3 -->
+                <div class="work-block">
+                    <h4>Manager <span class="orange">Mono LLC</span></h4>
+                    <p class="time">June 2014 - February 2015   <span class="black">|</span>   Country</p>
+                    <ul class="work-list">
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li>Quis ipsum suspendisse ultrices gravida.</li>
+                        <li>Risus commodo viverra maecenas.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- User Education -->
+            <div class="user-education">
+                <h3>Education</h3>
+                <h4><span class="orange">National University of Radioelectronics</span></h4>
+                <h4>Management</h4>
+                <p class="time">September 2009 - June 2014   <span class="black">|</span>   Country</p>
+            </div>
+        </div>
     
+    </div>
 </body>
 </html>
